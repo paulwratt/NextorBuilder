@@ -27,14 +27,15 @@ There's a script called **compile-all.sh** that does the following: (check the c
 * Checks for requirements
 * Clones Nextor project from github (if not present)
 * Starts the Windows VM using Vagrant
-* Executes **compile.bat** inside the VM to compile all the pieces that form Nextor
+* Executes **compile.bat** inside the VM for all components of Nextor and tools
 * Stops the VM
 
-## Issues
+## Issues & Comments
 
-This project is WIP. There's an error compiling FDISK which I am trying to solve with Nextor's original developer.
-Meanwhile I am applying a patch that I have created to solve the problem. That's the reason to include the **sdcc.patch** file.
-I have included a sample output for reference in **output.log**.
+* There's an error compiling FDISK which I am trying to solve with Nextor's original developer. Meanwhile I am applying
+a my own patch to solve the problem. That's the reason to include the **sdcc.patch** file.
+* I have added a successfull compilation sample output for reference in **output.log**.
+* To completely delete the image try with: vagrant destroy
 
 ## That's it
 
