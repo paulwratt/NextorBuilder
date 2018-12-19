@@ -34,7 +34,7 @@ There's a script called **compile-all.sh** that does the following: (check the c
 
 This project is WIP. There's an error compiling FDISK which I am trying to solve with Nextor's original developer.
 Meanwhile I am applying a patch that I have created to solve the problem. That's the reason to include the **sdcc.patch** file.
-I have includes a sample output for reference in **output.log**.
+I have included a sample output for reference in **output.log**.
 
 ## That's it
 
