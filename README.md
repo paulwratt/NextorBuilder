@@ -5,11 +5,10 @@ Build [Nextor](https://github.com/Konamiman/Nextor) (MSX disk operating system) 
 
 * [Vagrant](https://www.vagrantup.com): a tool for building and managing virtual machine environments
 * [VirtualBox](https://www.virtualbox.org): a free and open-source hosted hypervisor for x86 computers
-* [git](https://git-scm.com): a free and open source distributed version control system 
 
 ## How to compile Nextor
 
-$ ./compile-all.sh
+$ compile-all.sh
 
 First execution will take quite a long time as the Windows image will be downloaded
 
@@ -24,8 +23,8 @@ I have created a ready made Windows Server 2012 Vagrant image with all the tools
 There's a script called **compile-all.sh** that does the following: (check the code, it's very simple)
 
 * Checks for requirements
-* Clones Nextor project from github if not present
-* Starts the Windows VM using Vgrant (will downloaded at the first run)
+* Clones Nextor project from github (if not present)
+* Starts the Windows VM using Vagrant
 * Executes **compile.bat** inside the VM to compile all the pieces that form Nextor
 * Stops the VM
 
@@ -34,7 +33,7 @@ There's a script called **compile-all.sh** that does the following: (check the c
 This project is WIP. There's an error compiling FDISK which I am trying to solve with the original Nextor developer.
 Meanwhile I am applying a patch that I have created to solve the problem. That's the reason for the file **sdcc.patch**
 
-## That's it :)
+## That's it
 
 I know this tool won't be used at all. It's a very small niche of knowledge. But if you happen to encounter this
-and it's usefull for you, please give me feedback.
+and it's usefull for you, please let me know! Thanks :)
