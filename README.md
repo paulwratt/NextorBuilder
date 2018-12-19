@@ -8,7 +8,9 @@ Build [Nextor](https://github.com/Konamiman/Nextor) (MSX disk operating system) 
 
 ## How to compile Nextor
 
+```console
 $ compile-all.sh
+```
 
 First execution will take quite a long time as the Windows image will be downloaded
 
