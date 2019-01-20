@@ -8,7 +8,9 @@ Build [Nextor](https://github.com/Konamiman/Nextor) (MSX disk operating system) 
 
 ## How to compile Nextor
 
-From the main directory of this repo run `compile-all.sh`. For available options:
+From the main directory of this repo run `compile-all.sh`.
+
+For available options:
 ```console
 $ compile-all.sh --help
 Use: ./compile-all.sh [-h/--help] | [-f/--fdisk ] | [-n/--nostop]
