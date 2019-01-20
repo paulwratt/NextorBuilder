@@ -8,12 +8,7 @@ Build [Nextor](https://github.com/Konamiman/Nextor) (MSX disk operating system) 
 
 ## How to compile Nextor
 
-From the main directory of this repo run:
-```console
-$ compile-all.sh
-```
-
-Check available options with **compile-all --help**:
+From the main directory of this repo run `compile-all.sh`. For available options:
 ```console
 $ compile-all.sh --help
 Use: ./compile-all.sh [-h/--help] | [-f/--fdisk ] | [-n/--nostop]
@@ -38,25 +33,22 @@ virtual machine. I want to use a Linux terminal to edit the code and try my chan
 ## How does it work?
 
 I have created a ready made Windows Vagrant image with all the tools needed to compile Nextor.
-There's a script called **compile-all.sh** that does the following: (check the [code](https://github.com/xesco/NextorBuilder/blob/master/compile-all.sh) is very simple)
+There's a script called `compile-all.sh` that does the following: (check the [code](https://github.com/xesco/NextorBuilder/blob/master/compile-all.sh) is very simple)
 
-* Checks for requirements
-* Clones Nextor project from github (if not present)
-* Starts the Windows VM using Vagrant
-* Executes **compile.bat** inside the VM for all of Nextor's modules and tools
-* Stops the VM
+* Check for requirements
+* Clone Nextor project from github (if not present)
+* Start the Windows VM using Vagrant
+* Execute `compile.bat` inside the VM for all of Nextor's modules and tools
+* Stop the VM
 
 ## Issues & Comments
 
-* I have added a sample output for a successfull compilation as a reference in **output.log**
-* To completely delete the Windows image try with: *vagrant destroy*
+* I have added a sample output for a successfull compilation as a reference in `output.log`
+* To completely delete the Windows image try with: `vagrant destroy`
 * Please support Nextor's original developer for his amazing work [here](https://www.patreon.com/konamiman)
+* At this moment there is no support for VMWare
 
 ## That's it
 
-I know this tool won't be used at all. It's a very small niche of knowledge. But if you happen to encounter this project
-and find it useful, please let me know! Thanks :)
-
-## TODO
-
-* Add suport for other providers: VMWare Fusion and VMWare Workstation
+I know this tool won't be used at all. It's a very small niche of knowledge. But if you happen to encounter ]
+this project and find it useful, please let me know! Thanks :)
