@@ -17,15 +17,15 @@ Check available options with **compile-all --help**:
 ```console
 $ compile-all.sh --help
 Use: ./compile-all.sh [-h/--help] | [-f/--fdisk ] | [-n/--nostop]
-	-h/--help: show this help
-	-f/--fdisk: compile FDISK only
-	-n/--nostop: keep VM running
+    -h/--help: show this help
+    -f/--fdisk: compile FDISK only
+    -n/--nostop: keep VM running
 Examples:
-	./compile-all.sh                    # Compile all and stop VM
-	./compile-all.sh -n                 # Do not stop de VM
-	./compile-all.sh -n -f              # Do not stop de VM and compile FDISK only
-	./compile-all.sh --nostop --fdisk   # Same as previous with long options
-	./compile-all.sh --help             # Show help
+    ./compile-all.sh                    # Compile all and stop VM
+    ./compile-all.sh -n                 # Do not stop de VM
+    ./compile-all.sh -n -f              # Do not stop de VM and compile FDISK only
+    ./compile-all.sh --nostop --fdisk   # Same as previous with long options
+    ./compile-all.sh --help             # Show help
 ```
 
 Note that first execution might take a long time because the Windows image will be downloaded
